@@ -49,6 +49,7 @@ function EmployeeList({setAllEmployees}) {
           <div className='displaybox' >
           <span className="employee-name"> Employee Name :{" "}{employee.name} </span><br/>
           <span className="employee-name"> Employee Name :{" "}{employee.surname} </span><br/>
+          <span className="employee-position"> Employee Id Number :{" "} {employee.idNumber}</span><br/>
           <span className="employee-position"> Position :{" "} {employee.employeePosition}</span>
       
           <button className="deletebtn" onClick={() => deleteEmployee(employee.id)}>Delete</button>

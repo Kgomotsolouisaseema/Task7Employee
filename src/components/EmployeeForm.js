@@ -99,35 +99,6 @@ function EmployeeForm({ onUpdate }) {
     }
   };
 
-  //HANDLE INPUT CHANGE FUNCTION , THIS DYNAMICALLY CHANGES THE STATE OF THE FIELD BASED ON THE VALUE OF THE SET INPUT
-  // const handleInputChange = (e) => {
-  //   const { name, value } = e.target;
-  //   if (name === "phoneNumber") {
-  //     //update the state  based on inout name
-  //     switch (name) {
-  //       case "name":
-  //         setName(value);
-  //         break;
-  //       case "surname":
-  //         setSurname(value);
-  //         break;
-  //       case "idnumber":
-  //         setIdNumber(value);
-  //         break;
-  //       case "email":
-  //         setEamil(value);
-  //         break;
-  //       case "employeePosition":
-  //         setEmployeePosition(value);
-  //         break;
-  //       case "image":
-  //         setImage(value);
-  //         break;
-  //       default:
-  //         break;
-  //     }
-  //   }
-  // };
 
   return (
     <div className="container">
