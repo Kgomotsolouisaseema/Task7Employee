@@ -1,0 +1,41 @@
+.container {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+.employee-item{
+    margin-bottom:15px ;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    position: relative;/*AFFECTS POSITION OF THE BUTTON */
+
+}
+
+.employee-name{
+    font-weight: bold;
+}
+
+.employee-position{
+    font-weight: bold;
+
+}
+
+.deletebtn {
+    margin-left: 15px; /*specifies margin space on the left*/
+    padding: 5px 10px;
+    background-color: "green";
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position:absolute; /* this position the button to absoloute*/
+    right: 0; /* this places the button on the right */
+    
+}
+.displaybox{
+    border: 1px solid rgb(0, 66, 128);
+    padding:  "10px";
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 1, 2, 3);
+  }
